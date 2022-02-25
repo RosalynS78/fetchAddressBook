@@ -1,0 +1,64 @@
+{
+    "results": [{
+        "gender": "male",
+        "name": {
+            "title": "Monsieur",
+            "first": "Steve",
+            "last": "Rolland"
+        },
+        "location": {
+            "street": {
+                "number": 3258,
+                "name": "Avenue Tony-Garnier"
+            },
+            "city": "Cheiry",
+            "state": "Graubünden",
+            "country": "Switzerland",
+            "postcode": 2993,
+            "coordinates": {
+                "latitude": "-52.5441",
+                "longitude": "-178.3562"
+            },
+            "timezone": {
+                "offset": "+3:00",
+                "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+            }
+        },
+        "email": "steve.rolland@example.com",
+        "login": {
+            "uuid": "ee85125a-9f8c-486f-b4f6-be233c9341e8",
+            "username": "whitegorilla760",
+            "password": "computer",
+            "salt": "M0FVFx8C",
+            "md5": "562a29c1d5ab2946a92eb7430bd10b8d",
+            "sha1": "f0ff759f4f06b853705c4c83993ff6680354817a",
+            "sha256": "8749a280ed010bb1a948a1e194c9915cc60c396d77ba29173a57ea5b20fd57f7"
+        },
+        "dob": {
+            "date": "1993-02-20T19:11:21.976Z",
+            "age": 29
+        },
+        "registered": {
+            "date": "2005-03-21T13:21:00.923Z",
+            "age": 17
+        },
+        "phone": "079 522 18 52",
+        "cell": "075 933 66 32",
+        "id": {
+            "name": "AVS",
+            "value": "756.6127.9681.79"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/19.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+        },
+        "nat": "CH"
+    }],
+    "info": {
+        "seed": "1b3ce2cc6eef3ddb",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}

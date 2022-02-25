@@ -1,0 +1,44 @@
+body {
+  background-image: url('/images/bgphoto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    
+}
+
+
+
+  
+  .top { grid-area: top; }
+  .title {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    font-size: 130px;
+}
+
+
+ h3 {
+   text-align: center;
+ }
+
+  
+
+.displayResults {
+  background-color: black;
+  opacity: 60%;
+}
+.displayResults2 {
+  background-color: black;
+  opacity: 60%;
+}
+ul {
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+
+  

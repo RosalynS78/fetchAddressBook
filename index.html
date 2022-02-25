@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="title">Frenz</div>
+  <h3>Chat up with a new friend or a group from around the world</h3>
+  <br>
+  <button onclick="reset()">Reset</button>
+
+  
+  <hr>
+  <h1>Make a connection
+  </h1>
+  <button onclick="displayUser()">Single Meetup</button>
+  <div class="displayResults">
+    <ul id='this-users'></ul>
+  </div>
+  <button onclick="fetch5Users()">Group Gathering</button>
+  <div class="displayResults2">
+    <ul id="five-users"></ul>
+  </div>
+  <hr>
+
+  
+  <button onclick="consoleContacts()">Console Users</button>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
