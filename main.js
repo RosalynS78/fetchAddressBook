@@ -93,9 +93,6 @@ const fetch5Users = () => {
 
 }
 
-  
-
-
 const reset = () => {
   location.reload();
 
