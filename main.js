@@ -51,7 +51,7 @@ const displayUser = () => {
     singleUser.append(li)
 
     const button = document.createElement("button");
-    button.innerHTML = "more info";
+    button.innerHTML = "contact";
     button.onclick = function () {
       const contactDetails = document.createTextNode(
         ` Cell: ${users.cell}, Phone: ${users.phone}, Email: ${users.email}`
@@ -78,7 +78,7 @@ const fetch5Users = () => {
     li.appendChild(text)
     displayFive.append(li)
     const button = document.createElement("button");
-    button.innerHTML = "more info";
+    button.innerHTML = "contact";
     button.onclick = function () {
       const contactDetails = document.createTextNode(
         ` Cell: ${manyUsers.cell}, Phone: ${manyUsers.phone}, Email: ${manyUsers.email}`
